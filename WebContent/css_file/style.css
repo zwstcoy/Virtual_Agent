@@ -1,0 +1,50 @@
+@CHARSET "ISO-8859-1";
+body{
+	background-color: #e2dedb;
+	text-align: left;
+}
+h1{
+	text-align: center;
+}
+table{
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.inventory_main{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: #e2dedb;
+    position:relative;
+    border: 1px solid #b3aca7;
+}
+.creditCard_infor{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	background:white;
+	border: 1px solid blak;
+
+}
+button{
+	margin:right;
+}
+.bill_container{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.card_icon{
+	width:100px;;
+	height:85px;
+}
+
+.final_container{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+    border: 1px solid #b3aca7;
+    text-align: center;
+}
