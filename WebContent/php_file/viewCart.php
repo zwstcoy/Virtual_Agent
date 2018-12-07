@@ -28,6 +28,22 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 		$type=$_POST['model'];
 		$price=200;
 	}
+	else if($_POST['size']=="SUV"){
+		$type=$_POST['size'];
+		$price=10;
+	}
+	else if($_POST['size']=="Midsize"){
+		$type=$_POST['size'];
+		$price=15;
+	}
+	else if($_POST['size']=="Luxury"){
+		$type=$_POST['size'];
+		$price=20;
+	}
+	else if($_POST['size']=="VIP"){
+		$type=$_POST['size'];
+		$price=30;
+	}
 	echo "<tr><td>".$type."</td><td>   $".$price."</td></tr>";
 	$_SESSION['total'] = $price;
 }
