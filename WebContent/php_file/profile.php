@@ -100,14 +100,14 @@ if(isset($_POST["submit"])){
     <title>Profile</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="../css/login.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css_file/login.css" />
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 <body>
 
 <div class="header">
     <ul id="nav">
-        <li><a href="menu.html">Home</i></a></li>
+        <li><a href="../html_file/menu.html">Home</i></a></li>
         <li><a href="inventory.php">Car Rental</i></a></li>
         <li><a href="parkingticket.php">Buy Parking</i></a></li>
         <li><a href="profile.php">Profile</i></a></li>

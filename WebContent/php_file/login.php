@@ -42,7 +42,7 @@ if(isset($_POST["submit"])){
     }
 
     if($found){
-        header('Location: menu.html');
+        header('Location: ../html_file/menu.html');
     }
 
     if(!$found){
@@ -59,7 +59,7 @@ if(isset($_POST["submit"])){
     <title>Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="../css/login.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css_file/login.css" />
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:900" rel="stylesheet">
 </head>
 <body>
@@ -86,7 +86,9 @@ if(isset($_POST["submit"])){
             <span class="createacc">New User? <a href="register.php">Create Account</a></span>
         </form>
     </div>
-
+<br>
+<br>
+<br>
     <div class="footer">
         <span>Powered By: InfiniteLoop</span>
         <ul id="icon-list">
